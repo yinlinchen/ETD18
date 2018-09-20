@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "es:ESHttpDelete",
+                "es:ESHttpHead",
+                "es:ESHttpGet",
+                "es:ESHttpPost",
+                "es:ESHttpPut"
+            ],
+            "Effect": "Allow",
+            "Resource": "arn:aws:es:us-east-1:Your ElasticSearch arn"
+        }
+    ]
+}
